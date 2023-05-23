@@ -9,6 +9,6 @@ This is Simple Marriage Wishes Card - [MrMrs]()
 ![JavaScript](https://img.shields.io/badge/frontend-javascript-yellow.svg?logo=javascript&style=flat-square)
 
 ## Feature in this Website ?
-- Generates the Celebration confetti onclik in the website. It excldes the first click.
+- Generates the Celebration confetti using on click in the website. It excldes the first click.
 
 ![MrMrs](Preview.png)
