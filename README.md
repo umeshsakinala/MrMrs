@@ -11,4 +11,4 @@ This is Simple Marriage Wishes Card - [MrMrs]()
 ## Feature in this Website ?
 - Generates the Celebration confetti onclik in the website. It excldes the first click.
 
-![MrMrs](preview.png)
+![MrMrs](Preview.png)
