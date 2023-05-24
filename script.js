@@ -1,5 +1,17 @@
+// Disable text selection
+document.addEventListener('selectstart', function(e) {
+  e.preventDefault();
+});
+
+// Disable copy action
+document.addEventListener('copy', function(e) {
+  e.preventDefault();
+});
+
 // Celebration Confetti
 // Counter Variable to keep track of counts such that it avoid the confetti for the firstclick
+console.log("Confetti Effect will start working only if the mouse is clicked.");
+console.log("It will not work for the first click");
 var clickcount = 0;
   window.addEventListener("click", confettiClick);
 
@@ -32,7 +44,6 @@ function confettiClick(e) {
     var card = $('card'),
         openB = $('open'),
         timer = null;
-    console.log('wat', card);
     openB.addEventListener('click', function () {
       card.setAttribute('class', 'open-half');
       if (timer) clearTimeout(timer);
