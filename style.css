@@ -280,7 +280,7 @@ p.signed {
 
 @keyframes fade-in {
   from {
-    opacity: 0;
+    opacity: 0.19;
   }
   to {
     opacity: 1;
