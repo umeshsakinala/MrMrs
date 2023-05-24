@@ -8,6 +8,11 @@ document.addEventListener('copy', function(e) {
   e.preventDefault();
 });
 
+// Throws Warning I the Website is opened in the mobile phones without desktop mode
+if (screen.width < 768) {
+  alert("Please switch to desktop mode for optimal viewing experience.");
+}
+
 // Celebration Confetti
 // Counter Variable to keep track of counts such that it avoid the confetti for the firstclick
 console.log("Confetti Effect will start working only if the mouse is clicked.");
