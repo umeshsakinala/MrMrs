@@ -14,8 +14,19 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <meta name="theme-color" content="#F26B38">
+    <script>
+        function checkDesktopMode() {
+          var userAgent = navigator.userAgent.toLowerCase();
+          var isChrome = /chrome/.test(userAgent);
+          var isMobile = /mobile/.test(userAgent);
+    
+          if (isChrome && isMobile) {
+            alert("Please switch to desktop mode in Chrome to view this website properly.");
+          }
+        }
+      </script>
 </head>
-<body>
+<body onload="checkDesktopMode">
     <br>
     <br>
     <br>
