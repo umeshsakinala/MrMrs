@@ -264,6 +264,34 @@ p.signed {
           animation-iteration-count: 1;
 }
 
+.hover-text {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hover-text .original {
+  display: inline-block;
+}
+
+.hover-text .replacement {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+}
+
+/* Swap texts on hover */
+.hover-text:hover .original {
+  visibility: hidden;
+}
+
+.hover-text:hover .replacement {
+  display: inline-block;
+}
+
+
 .wishesFont{
   font-family: 'Indie Flower', cursive;
   font-weight: 800;
@@ -280,7 +308,7 @@ p.signed {
 
 @keyframes fade-in {
   from {
-    opacity: 0.19;
+    opacity: 0.5;
   }
   to {
     opacity: 1;
